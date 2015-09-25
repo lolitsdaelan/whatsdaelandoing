@@ -21,7 +21,7 @@ urlpatterns = [
     url(r'^admin/'
     	, include(admin.site.urls)),
     url(r'^$'
-    	, home, name='home'),
+       , home, name='home'),
     url(r'^(?P<filename>(robots.txt)|(humans.txt))$'
     	, home_files, name='home_files')
 ]

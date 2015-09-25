@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 from django.shortcuts import render
+from whatsdaelandoing.apps.blog.models import Post
  
 def home(request):
-    return render(request, "whatsdaelandoing/index.html", {})
+	posts = Post.objects.all()
+	return render(request, 'whatsdaelandoing/index.html', {'posts':posts})
 
 def home_files(request, filename):
 	return render(request, filename, {}, content_type='text/plan')
