@@ -4,7 +4,7 @@ from whatsdaelandoing.apps.blog.models import Post
  
 def home(request):
 	posts = Post.objects.all()
-	return render(request, 'whatsdaelandoing/index.html', {})
+	return render(request, 'whatsdaelandoing/index.html', {'posts':posts})
 
 def home_files(request, filename):
 	return render(request, filename, {}, content_type='text/plan')
