@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Daelan Scroggins -- Developer -- @abetterdaelan
 
 # THANKS
 
-    <name>
+    All the great tutorials out there that have enabled
+    me to get this far!
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+	Django
+    HTML5 Boilerplate
+    Twitter Bootstrap
