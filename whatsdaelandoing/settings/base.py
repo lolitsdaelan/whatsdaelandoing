@@ -42,6 +42,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #What'sDaelanDoing? Apps
+    'whatsdaelandoing.apps.blog',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -81,8 +83,12 @@ WSGI_APPLICATION = 'whatsdaelandoing.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'whatsdaelandoing_db',
+        'USER': 'daelan',
+        'PASSWORD': 'B43b62b63b63b64',
+        'HOST': '',
+        'PORT': '',
     }
 }
 
