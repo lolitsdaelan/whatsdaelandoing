@@ -1,1 +1,7 @@
 -r base.txt
+dj-database-url==0.3.0
+Django==1.8.4
+gunicorn==19.3.0
+wheel==0.24.0
+whitenoise==2.0.4
+psycopg2==2.5.4
