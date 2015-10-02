@@ -4,6 +4,8 @@
 
 {% block content %}
 	{% for post in posts %}
-		{{ post }}
+		<h2 class="post-title">{{ post.title }}</h2>
+		<p>{{ post.author }} - {{ post.created_date }}</p>
+		<p>{{ post.text}}</p>
 	{% endfor %}
 {% endblock %}

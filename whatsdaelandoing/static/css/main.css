@@ -5,3 +5,11 @@
 .jumbotron h1 {
     color: rgba(200, 50, 255, 1);
 }
+
+.container {
+	font-family: 'Roboto', sans-serif;
+}
+
+.subtitle {
+	color: #888888;
+}
