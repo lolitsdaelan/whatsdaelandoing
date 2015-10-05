@@ -98,7 +98,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Indiana/Indianapolis'
 
 USE_I18N = True
 

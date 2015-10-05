@@ -5,7 +5,7 @@
 {% block content %}
 	{% for post in posts %}
 		<h2 class="post-title">{{ post.title }}</h2>
-		<p>{{ post.author }} - {{ post.created_date }}</p>
-		<p>{{ post.text}}</p>
+		<p>{{ post.created_date|date:'M d, Y' }}</p>
+		<p>{{ post.text|safe }}</p>
 	{% endfor %}
 {% endblock %}
