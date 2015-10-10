@@ -11,5 +11,10 @@
 }
 
 .subtitle {
-	color: #888888;
+	color: #757575;
+}
+
+.code {
+	font-family: 'Anonymous Pro', ;
+	color: #ff8f00;
 }
