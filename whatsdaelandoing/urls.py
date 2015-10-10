@@ -15,13 +15,15 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-from .views import home, home_files
+from . import views
 
 urlpatterns = [
     url(r'^admin/'
     	, include(admin.site.urls)),
     url(r'^$'
-       , home, name='home'),
+       , views.home, name='home'),
     url(r'^(?P<filename>(robots.txt)|(humans.txt))$'
-    	, home_files, name='home_files')
+    	, views.home_files, name='home_files'),
+    url(r'^post/(?P<pk>[0-9]+)/$'
+        , views.post_detail, name='post_detail'),
 ]
