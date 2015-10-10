@@ -3,7 +3,7 @@ from django.shortcuts import render, get_object_or_404
 from whatsdaelandoing.apps.blog.models import Post
  
 def home(request):
-	posts = Post.objects.all()
+	posts = Post.objects.order_by('-created_date')
 	return render(request, 'whatsdaelandoing/index.html', {'posts':posts})
 
 def home_files(request, filename):
