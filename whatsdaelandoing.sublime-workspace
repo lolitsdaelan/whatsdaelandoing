@@ -1,0 +1,434 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"stati",
+				"staticfiles"
+			],
+			[
+				"Pro",
+				"project"
+			],
+			[
+				"ver",
+				"verbose_name_plural"
+			],
+			[
+				"con",
+				"context_processors"
+			],
+			[
+				"i18n",
+				"i18n_patterns"
+			],
+			[
+				"com",
+				"common"
+			],
+			[
+				"conte",
+				"context_processors"
+			],
+			[
+				"get",
+				"get_full_url"
+			],
+			[
+				"__",
+				"__file__"
+			],
+			[
+				"Sec",
+				"SECRET_KEY"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "functional_tests/test_all_users.py",
+			"settings":
+			{
+				"buffer_size": 1070,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "whatsdaelandoing/urls.py",
+			"settings":
+			{
+				"buffer_size": 1023,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "whatsdaelandoing/apps/blog/models.py",
+			"settings":
+			{
+				"buffer_size": 441,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 355.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/daelan/whatdaelandoing_project",
+		"/home/daelan/whatdaelandoing_project/functional_tests",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/apps",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/apps/blog"
+	],
+	"file_history":
+	[
+		"/home/daelan/whatdaelandoing_project/requirements/testing.txt",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/static/css/main.css",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/urls.py",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/templates/whatsdaelandoing/post_detail.html",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/templates/base.html",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/templates/whatsdaelandoing/index.html",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/views.py",
+		"/home/daelan/whatdaelandoing_project/functional_tests/test_all_users.py",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/settings/base.py",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/apps/blog/models.py",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/apps/blog/admin.py",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/templates/robots.txt",
+		"/home/daelan/whatdaelandoing_project/requirements/production.txt",
+		"/home/daelan/whatdaelandoing_project/requirements/base.txt",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/templates/humans.txt",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/wsgi.py",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/settings/production.py",
+		"/home/daelan/whatdaelandoing_project/runtime.txt",
+		"/home/daelan/whatdaelandoing_project/Procfile",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/test.py",
+		"/home/daelan/whatdaelandoing_project/.gitignore",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/settings/development.py",
+		"/home/daelan/whatdaelandoing_project/whatsdaelandoing/settings/testing.py",
+		"/home/daelan/whatdaelandoing_project/functional_tests/all_users.py",
+		"/home/daelan/blog_project/Procfile",
+		"/home/daelan/blog_project/blog/templates/blog/base.html",
+		"/home/daelan/blog_project/blog/static/css/blog.css",
+		"/home/daelan/blog_project/blog/templates/blog/post_list.html",
+		"/home/daelan/blog_project/blog/templates/blog/post_detail.html",
+		"/home/daelan/blog_project/runtime.txt",
+		"/home/daelan/blog_project/requirements.txt",
+		"/home/daelan/blog_project/mysite/settings.py",
+		"/home/daelan/blog_project/mysite/wsgi.py",
+		"/home/daelan/blog_project/blog/forms.py",
+		"/home/daelan/blog_project/blog/models.py",
+		"/home/daelan/blog_project/blog/views.py",
+		"/home/daelan/blog_project/blog/urls.py",
+		"/home/daelan/blog_project/blog/templates/blog/add_comment_to_post.html",
+		"/home/daelan/blog_project/blog/admin.py",
+		"/home/daelan/blog_project/mysite/urls.py",
+		"/home/daelan/blog_project/blog/templates/registration/login.html",
+		"/home/daelan/blog_project/blog/templates/blog/post_draft_list.html",
+		"/home/daelan/blog_project/blog/templates/blog/post_edit.html",
+		"/home/daelan/blog_project/.gitignore",
+		"/home/daelan/blog_project/functional_tests/test_all_users.py",
+		"/home/daelan/blog_project/blog/settings/base.py",
+		"/home/daelan/blog_project/blog/settings/development.py",
+		"/home/daelan/blog_project/blog/settings/production.py",
+		"/home/daelan/blog_project/blog/settings/testing.py",
+		"/home/daelan/blog_project/functional_tests/all_users.py",
+		"/home/daelan/blog_project/blog/settings/staging.py",
+		"/home/daelan/taskbuster_project/taskbuster/apps/taskmanager/models.py",
+		"/home/daelan/taskbuster_project/taskbuster/apps/taskmanager/tests.py",
+		"/home/daelan/taskbuster_project/taskbuster/apps/taskmanager/admin.py",
+		"/home/daelan/taskbuster_project/taskbuster/apps/taskmanager/managers.py",
+		"/home/daelan/taskbuster_project/taskbuster/apps/managers.py",
+		"/home/daelan/taskbuster_project/taskbuster/settings/base.py",
+		"/home/daelan/taskbuster_project/taskbuster/urls.py",
+		"/home/daelan/taskbuster_project/taskbuster/fixtures/google_user.json",
+		"/home/daelan/taskbuster_project/functional_tests/test_allauth.py",
+		"/home/daelan/taskbuster_project/taskbuster/settings/testing.py",
+		"/home/daelan/taskbuster_project/taskbuster/templates/base.html",
+		"/home/daelan/taskbuster_project/.gitignore",
+		"/home/daelan/taskbuster_project/requirements/base.txt",
+		"/home/daelan/taskbuster_project/taskbuster/fixtures/allauth_fixture.json",
+		"/home/daelan/taskbuster_project/docs/quick_start.rst",
+		"/home/daelan/taskbuster_project/docs/requirements.rst",
+		"/home/daelan/taskbuster_project/requirements/testing.txt",
+		"/home/daelan/taskbuster_project/requirements/development.txt",
+		"/home/daelan/taskbuster_project/docs/index.rst",
+		"/home/daelan/taskbuster_project/docs/conf.py",
+		"/home/daelan/taskbuster_project/taskbuster/views.py",
+		"/home/daelan/taskbuster_project/taskbuster/templates/taskbuster/index.html",
+		"/home/daelan/taskbuster_project/functional_tests/test_all_users.py",
+		"/home/daelan/taskbuster_project/taskbuster/locale/ca/LC_MESSAGES/django.po",
+		"/home/daelan/taskbuster_project/taskbuster/templates/humans.txt",
+		"/home/daelan/taskbuster_project/taskbuster/test.py",
+		"/home/daelan/taskbuster_project/taskbuster/templates/robots.txt",
+		"/home/daelan/taskbuster_project/taskbuster/static/css/main.css",
+		"/home/daelan/taskbuster_project/taskbuster/settings/production.py",
+		"/home/daelan/taskbuster_project/taskbuster/settings/staging.py",
+		"/home/daelan/taskbuster_project/taskbuster/settings/development.py",
+		"/home/daelan/taskbuster_project/functional_tests/all_users.py",
+		"/home/daelan/taskbuster-project/Taskbuster.sublime-project",
+		"/home/daelan/taskbuster_project/manage.py",
+		"/home/daelan/taskbuster_project/taskbuster/settings/__init__.py",
+		"/home/daelan/taskbuster_project/settings/testing.py",
+		"/home/daelan/taskbuster_project/settings/staging.py",
+		"/home/daelan/taskbuster_project/settings/production.py",
+		"/home/daelan/taskbuster_project/settings/development.py",
+		"/home/daelan/taskbuster_project/requirements/production.txt",
+		"/home/daelan/taskbuster_project/taskbuster_project"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"127.0.0.1",
+			"localhost:8081",
+			"127.0.0.1:8000",
+			"127",
+			"return"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"127.0.0.1:8000",
+			"localhost:8081"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "functional_tests/test_all_users.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1070,
+								1070
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "whatsdaelandoing/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1023,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "whatsdaelandoing/apps/blog/models.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "whatsdaelandoing.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

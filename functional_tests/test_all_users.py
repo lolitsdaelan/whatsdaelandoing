@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from selenium import webdriver
 from django.core.urlresolvers import reverse
-from django.contrib.staticfiles.testing import StaticLiveServerTestCase 
+from django.contrib.staticfiles.testing import StaticLiveServerTestCase
  
 class HomeNewVisitorTest(StaticLiveServerTestCase): 
  
@@ -19,16 +19,6 @@ class HomeNewVisitorTest(StaticLiveServerTestCase):
         self.browser.get(self.get_full_url("home"))
         self.assertIn("What's Daelan Doing?", self.browser.title) 
  
-    def test_post_details(self):
-        self.browser.get(self.get_full_url("post"))
-        self.assertIn("What's Daelan Doing?", self.browser.title)
-
-    #def test_h1_css(self):
-    #    self.browser.get(self.get_full_url("home"))
-    #    h1 = self.browser.find_element_by_tag_name("h1")
-    #    self.assertEqual(h1.value_of_css_property("color"), 
-    #                     "rgba(200, 50, 255, 1)")
-
     def test_home_files(self):
         self.browser.get(self.live_server_url + "/robots.txt")
         self.assertNotIn("Not Found", self.browser.title)
